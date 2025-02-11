@@ -1,0 +1,83 @@
+/* Netflix-style Header */
+
+.header_outer-container {
+  background-color: rgb(20, 20, 20); 
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  /* padding: 20px; */
+  height: 10vh;
+  /* position: fixed; */
+  top: 0;
+  color: #ffffff;
+  transition: all 0.5s;
+  transition-timing-function: ease-in;
+  /* width: 100%; */
+  z-index: 1;
+  /* background-color: red; */
+}
+.nav_black {
+    background-color: rgb(20, 20, 20);
+}
+.header_container {
+   
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+.header_left ul{
+    width: 140%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    /* background-color: lightblue; */
+
+
+}
+.header_right ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
+/* .logo {
+  height: 40px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #e50914; Netflix red for hover effect
+}
+
+.profile-icon {
+  height: 32px;
+  width: 32px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.profile-icon:hover {
+  transform: scale(1.1);
+} */
