@@ -12,7 +12,9 @@ const Header = () => {
       <div className="header_container">
         <div className="header_left">
           <ul>
-            <li><img src={NetflixLogo} alt="Netflix Logo" width="50"/></li>
+            <li>
+              <img src={NetflixLogo} alt="Netflix Logo" width="50" />
+            </li>
             <li>Netflix</li>
             <li>Home</li>
             <li>TvShows</li>
@@ -22,15 +24,14 @@ const Header = () => {
             <li>Browse by Language</li>
           </ul>
         </div>
-      </div>
-      <div className='header_right'>
-        <ul>
-            <li><SearchIcon/></li>
-            <li><NotificationsNoneIcon/></li>
-            <li><AccountBoxIcon/></li>
-            <li><ArrowDropDownCircleIcon/></li>
-            
-        </ul>
+        <div className="header_right">
+          <ul>
+            <li> <SearchIcon /></li>
+            <li><NotificationsNoneIcon /></li>
+            <li><AccountBoxIcon /></li>
+            <li><ArrowDropDownCircleIcon /></li>
+          </ul>
+        </div>
       </div>
     </div>
   );
