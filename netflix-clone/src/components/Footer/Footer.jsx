@@ -4,7 +4,7 @@ import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 
-const Footer = () => {
+function Footer (){
   return (
     <div className="footer_outer_container">
       <div className="footer_inner_container">
