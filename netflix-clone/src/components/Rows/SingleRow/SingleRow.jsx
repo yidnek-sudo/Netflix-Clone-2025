@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import "./row.css";
+import "./SingleRow.css";
 import axios from "../../../utils/axios"
 // import requests from "../../../utils/requests"
 import movieTrailer from "movie-trailer"; //it will extract or find the movie trailer from youtube if we passe titile of the move to it

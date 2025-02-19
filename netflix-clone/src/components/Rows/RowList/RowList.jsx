@@ -1,7 +1,7 @@
 import React from 'react'
 import SingleRow from '../SingleRow/SingleRow'
 import requests from '../../../utils/requests'
-import "./SingleRow.css"
+
 const RowList = () => {
   return (
     <>
